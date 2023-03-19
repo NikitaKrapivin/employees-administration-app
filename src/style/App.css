@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+}
+
+.App{
+    width: 800px;
+    margin-top: 254px;
+}
+
+.Login{
+    margin-left: 8px;
+}
+
+.DivBtn{
+    margin-bottom: 28px;
+}
+.DivInput{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-right: 115px;
+}
+
+.DivButtons{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.LoginA{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #2D9CDB;
+}
