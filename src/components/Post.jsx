@@ -17,7 +17,7 @@ const Post = () => {
 
             <div className='DivButtons'>
                 <MyButton onClick={() => history('/main')}>Вход</MyButton>
-                <MyButton>Вход РП</MyButton>
+                <MyButton onClick={() => history('/main1')}>Вход РП</MyButton>
                 <MyButton>Вход ПО</MyButton>
                 <MyButton>Вход HR</MyButton>
             </div>
